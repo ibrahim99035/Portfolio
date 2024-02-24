@@ -75,7 +75,7 @@ const PortfolioPage = () => {
           ))}
           <div className="w-full flex justify-center mt-8 text-highlight">          
             <div className="max-w-4xl mx-auto p-4">
-              <h2 className="text-3xl font-bold text-center text-highlight">University Journey &amp; Graduation Project</h2>
+              <h2 className="text-3xl font-bold text-center text-highlight">University Journey and Graduation Project</h2>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Education:</h3>
                 <p className="mb-4">
@@ -89,9 +89,9 @@ const PortfolioPage = () => {
                 />
               </div>
               <div>
-                <h3 className="text-lg font-semibold mb-2">Computers &amp; AI Olympiad (Helwan University):</h3>
+                <h3 className="text-lg font-semibold mb-2">Computers and AI Olympiad (Helwan University):</h3>
                 <p className="mb-4">
-                  Our participation in the Fifth Olympiad for Computers &amp; AI at Helwan University featured a web application developed using Flask. This application incorporates AI models built with TensorFlow and Keras libraries, trained on extensive image datasets, enabling accurate diagnosis of both Covid-19 and Brain Tumors.
+                  Our participation in the Fifth Olympiad for Computers and AI at Helwan University featured a web application developed using Flask. This application incorporates AI models built with TensorFlow and Keras libraries, trained on extensive image datasets, enabling accurate diagnosis of both Covid-19 and Brain Tumors.
                 </p>
                 <Image 
                   src="/Me/helawan.jpg" 
@@ -161,7 +161,7 @@ const PortfolioPage = () => {
               <div>
                 <h3 className="text-lg font-semibold mb-2">Udacity Nanodrgree:</h3>
                 <p>
-                  Embarking on the Professional Frontend Nanodegree journey with Udacity has been an exhilarating experience! Throughout the program, I delved deep into the world of JavaScript, Node.js, and the Express library, gaining invaluable insights and honing my technical expertise. Crafting two significant projects – an Interactive Landing page and a Weather App – not only solidified my understanding but also fueled my passion for frontend development. Beyond coding, I immersed myself in Agile methods, freelancing strategies, and the intricacies of tech businesses, enriching my professional toolkit and broadening my career horizons. This journey has been challenging yet immensely rewarding, affirming my dedication to continuous growth and innovation in the ever-evolving tech landscape. I'm excited to leverage my newfound skills and knowledge as I embark on the next phase of my career journey.
+                  Embarking on the Professional Frontend Nanodegree journey with Udacity has been an exhilarating experience! Throughout the program, I delved deep into the world of JavaScript, Node.js, and the Express library, gaining invaluable insights and honing my technical expertise. Crafting two significant projects – an Interactive Landing page and a Weather App – not only solidified my understanding but also fueled my passion for frontend development. Beyond coding, I immersed myself in Agile methods, freelancing strategies, and the intricacies of tech businesses, enriching my professional toolkit and broadening my career horizons. This journey has been challenging yet immensely rewarding, affirming my dedication to continuous growth and innovation in the ever-evolving tech landscape. I amm excited to leverage my newfound skills and knowledge as I embark on the next phase of my career journey.
                 </p>
                 <Image 
                   src="/Me/udacity.jpg" 
