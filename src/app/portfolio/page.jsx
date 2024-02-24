@@ -1,9 +1,5 @@
 "use client";
-import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
-import { useState, useEffect  } from "react";
-
 
 const PortfolioPage = () => {
     // Sample data for demonstration
@@ -77,10 +73,9 @@ const PortfolioPage = () => {
               </div>
             </div>
           ))}
-          {/* Uncommented "Graduation Projects" section */}
           <div className="w-full flex justify-center mt-8 text-highlight">          
             <div className="max-w-4xl mx-auto p-4">
-              <h2 className="text-3xl font-bold text-center text-highlight">University Journey & Graduation Project</h2>
+              <h2 className="text-3xl font-bold text-center text-highlight">University Journey &amp; Graduation Project</h2>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Education:</h3>
                 <p className="mb-4">
@@ -94,9 +89,9 @@ const PortfolioPage = () => {
                 />
               </div>
               <div>
-                <h3 className="text-lg font-semibold mb-2">Computers & AI Olympiad (Helwan University):</h3>
+                <h3 className="text-lg font-semibold mb-2">Computers &amp; AI Olympiad (Helwan University):</h3>
                 <p className="mb-4">
-                  Our participation in the Fifth Olympiad for Computers & AI at Helwan University featured a web application developed using Flask. This application incorporates AI models built with TensorFlow and Keras libraries, trained on extensive image datasets, enabling accurate diagnosis of both Covid-19 and Brain Tumors.
+                  Our participation in the Fifth Olympiad for Computers &amp; AI at Helwan University featured a web application developed using Flask. This application incorporates AI models built with TensorFlow and Keras libraries, trained on extensive image datasets, enabling accurate diagnosis of both Covid-19 and Brain Tumors.
                 </p>
                 <Image 
                   src="/Me/helawan.jpg" 
